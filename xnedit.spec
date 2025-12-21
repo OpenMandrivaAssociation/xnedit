@@ -7,6 +7,7 @@ Group:			Editors
 URL:			https://github.com/unixwork/xnedit
 Source0:		https://github.com/unixwork/xnedit/archive/v%{version}/%{name}-%{version}.tar.gz
 Patch0:			xnedit-1.4.1-compiler_flags.patch
+BuildRequires:	make
 BuildRequires:	bison
 BuildRequires:	motif-devel
 BuildRequires:	imagemagick
