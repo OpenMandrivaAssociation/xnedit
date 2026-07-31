@@ -1,12 +1,12 @@
 Summary:		A fast and classic X11 text editor, based on NEdit
 Name:			xnedit
-Version:		1.4.1
+Version:		1.6.3
 Release:		1
 License:		GPLv2
 Group:			Editors
 URL:			https://github.com/unixwork/xnedit
 Source0:		https://github.com/unixwork/xnedit/archive/v%{version}/%{name}-%{version}.tar.gz
-Patch0:			xnedit-1.4.1-compiler_flags.patch
+# dropped (no longer applies): Patch0:			xnedit-1.6.3-compiler_flags.patch
 BuildRequires:	make
 BuildRequires:	bison
 BuildRequires:	motif-devel
