@@ -1,3 +1,4 @@
+%undefine _debugsource_packages
 Summary:		A fast and classic X11 text editor, based on NEdit
 Name:			xnedit
 Version:		1.6.3
